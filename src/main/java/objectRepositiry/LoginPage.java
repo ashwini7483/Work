@@ -21,4 +21,20 @@ public class LoginPage {
 
 	@FindBy(xpath="//input[@value='Log in']")
 	private WebElement loginButton;
+	public WebDriver getDriver() {
+		return driver;
+	}
+
+	public WebElement getEmailTextField() {
+		return emailTextField;
+	}
+
+	public WebElement getPwdTextField() {
+		return pwdTextField;
+	}
+
+	public WebElement getLoginButton() {
+		return loginButton;
+	}
+	
 }
