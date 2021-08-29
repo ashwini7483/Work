@@ -37,5 +37,4 @@ public class CartPage {
 		return checkout;
 	}
 	
-	
 }

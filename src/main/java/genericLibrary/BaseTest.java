@@ -61,9 +61,9 @@ public class BaseTest implements IAutoConstants {
 
 		//Step1 : navigate to application
 		driver.get(DEFAULT_URL);
-		String expectedLoginPageTitle = "Demo Web Shop";
-		Assert.assertEquals(driver.getTitle(),expectedLoginPageTitle,"Login Page is not displayed");
-		Reporter.log("Login page is displayed successfully",true);
+		String expectedHomePageTitle = "Demo Web Shop";
+		Assert.assertEquals(driver.getTitle(),expectedHomePageTitle,"Home Page is not displayed");
+		Reporter.log("Home page is displayed successfully",true);
 	}
 
 	@AfterMethod(alwaysRun=true)

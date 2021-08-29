@@ -24,6 +24,19 @@ public class LoginPage {
 	public WebDriver getDriver() {
 		return driver;
 	}
+	@FindBy(xpath="//a[text()='Log in']")
+	private WebElement loginLink;
+
+	@FindBy(xpath="//span[text()='Login was unsuccessful. Please correct the errors and try again.']")
+	private WebElement errorMessage;
+	
+	public WebElement getErrorMessage() {
+		return errorMessage;
+	}
+
+	public WebElement getLoginLink() {
+		return loginLink;
+	}
 
 	public WebElement getEmailTextField() {
 		return emailTextField;

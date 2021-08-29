@@ -105,5 +105,13 @@ public class ChekoutPage {
 		return thankYouMessage;
 	}
 	
+	@FindBy(xpath="//table[@class='cart']/..//a[text()='14.1-inch Laptop']")
+	private WebElement prodctInCart;
+	
+	public WebElement getProdctInCart() {
+		return prodctInCart;
+	}
+	
+	
 	
 }
