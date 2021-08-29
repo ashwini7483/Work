@@ -8,21 +8,30 @@
       <![CDATA[Browser window is maximized successfully]]>
     </line>
     <line>
-      <![CDATA[Login page is displayed successfully]]>
+      <![CDATA[Home page is displayed successfully]]>
     </line>
     <line>
-      <![CDATA[hii]]>
+      <![CDATA[Valiod email id entered Successfully]]>
+    </line>
+    <line>
+      <![CDATA[valid password Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Homepage displayed Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Cart page is displayed Successfully]]>
     </line>
     <line>
       <![CDATA[Logged out successfully]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11891" started-at="2021-08-28T18:26:00 EDT" finished-at="2021-08-28T18:26:12 EDT">
+  <suite name="Default suite" duration-ms="11502" started-at="2021-08-28T20:47:45 EDT" finished-at="2021-08-28T20:47:56 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11891" started-at="2021-08-28T18:26:00 EDT" finished-at="2021-08-28T18:26:12 EDT">
-      <class name="swarna.TC_11Test">
-        <test-method status="PASS" signature="openApplication(java.lang.String)[pri:0, instance:swarna.TC_11Test@3712b94]" name="openApplication" is-config="true" duration-ms="11129" started-at="2021-08-28T18:26:00 EDT" finished-at="2021-08-28T18:26:11 EDT">
+    <test name="Default test" duration-ms="11502" started-at="2021-08-28T20:47:45 EDT" finished-at="2021-08-28T20:47:56 EDT">
+      <class name="swarna.TC_12Test">
+        <test-method status="PASS" signature="openApplication(java.lang.String)[pri:0, instance:swarna.TC_12Test@3712b94]" name="openApplication" is-config="true" duration-ms="6136" started-at="2021-08-28T20:47:45 EDT" finished-at="2021-08-28T20:47:51 EDT">
           <params>
             <param index="0">
               <value>
@@ -38,29 +47,38 @@
               <![CDATA[Browser window is maximized successfully]]>
             </line>
             <line>
-              <![CDATA[Login page is displayed successfully]]>
+              <![CDATA[Home page is displayed successfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- openApplication -->
-        <test-method status="PASS" signature="loginWithInvalidCredentials()[pri:0, instance:swarna.TC_11Test@3712b94]" name="loginWithInvalidCredentials" duration-ms="8" started-at="2021-08-28T18:26:11 EDT" finished-at="2021-08-28T18:26:11 EDT">
+        <test-method status="PASS" signature="toCheckout()[pri:0, instance:swarna.TC_12Test@3712b94]" name="toCheckout" duration-ms="4633" started-at="2021-08-28T20:47:51 EDT" finished-at="2021-08-28T20:47:55 EDT">
           <reporter-output>
             <line>
-              <![CDATA[hii]]>
+              <![CDATA[Valiod email id entered Successfully]]>
+            </line>
+            <line>
+              <![CDATA[valid password Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Homepage displayed Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Cart page is displayed Successfully]]>
             </line>
           </reporter-output>
-        </test-method> <!-- loginWithInvalidCredentials -->
-        <test-method status="PASS" signature="logoutFromApplication()[pri:0, instance:swarna.TC_11Test@3712b94]" name="logoutFromApplication" is-config="true" duration-ms="0" started-at="2021-08-28T18:26:11 EDT" finished-at="2021-08-28T18:26:11 EDT">
+        </test-method> <!-- toCheckout -->
+        <test-method status="PASS" signature="logoutFromApplication()[pri:0, instance:swarna.TC_12Test@3712b94]" name="logoutFromApplication" is-config="true" duration-ms="0" started-at="2021-08-28T20:47:55 EDT" finished-at="2021-08-28T20:47:55 EDT">
           <reporter-output>
             <line>
               <![CDATA[Logged out successfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- logoutFromApplication -->
-        <test-method status="PASS" signature="CloseApp()[pri:0, instance:swarna.TC_11Test@3712b94]" name="CloseApp" is-config="true" duration-ms="720" started-at="2021-08-28T18:26:11 EDT" finished-at="2021-08-28T18:26:12 EDT">
+        <test-method status="PASS" signature="CloseApp()[pri:0, instance:swarna.TC_12Test@3712b94]" name="CloseApp" is-config="true" duration-ms="701" started-at="2021-08-28T20:47:55 EDT" finished-at="2021-08-28T20:47:56 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseApp -->
-      </class> <!-- swarna.TC_11Test -->
+      </class> <!-- swarna.TC_12Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
