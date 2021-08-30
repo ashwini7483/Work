@@ -2,12 +2,14 @@ package istiyak;
 
 import org.testng.Assert;
 import org.testng.Reporter;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import genericLibrary.BaseTest;
 import objectRepositiry.HomePage;
 import objectRepositiry.LoginPage;
 
+@Listeners(genericLibrary.ListenerImplementationClass.class)
 public class TC_05Test extends BaseTest {
 
 	@Test

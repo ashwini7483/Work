@@ -2,11 +2,13 @@ package savita;
 
 import org.testng.Assert;
 import org.testng.Reporter;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import genericLibrary.BaseTest;
 import objectRepositiry.RegisterPage;
 
+@Listeners(genericLibrary.ListenerImplementationClass.class)
 public class TC_07Test extends BaseTest {
 
 	@Test

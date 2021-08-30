@@ -2,11 +2,13 @@ package sowmya;
 
 import org.testng.Assert;
 import org.testng.Reporter;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import genericLibrary.BaseTest;
 import objectRepositiry.ContactUsPage;
 
+@Listeners(genericLibrary.ListenerImplementationClass.class)
 public class TC_10Test extends BaseTest
 {
 	@Test

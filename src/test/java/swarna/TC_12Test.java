@@ -1,14 +1,15 @@
 package swarna;
 
-import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.Reporter;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import genericLibrary.BaseTest;
 import objectRepositiry.CartPage;
 import objectRepositiry.ChekoutPage;
 import objectRepositiry.HomePage;
 
+@Listeners(genericLibrary.ListenerImplementationClass.class)
 public class TC_12Test extends BaseTest {
 
 	@Test

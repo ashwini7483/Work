@@ -3,14 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="swarna.TC_11Test">
+      <class name="ambika.TC_01Test">
         <methods>
-          <include name="loginWithInvalidCredentials"/>
+          <include name="ContactUsPage1"/>
           <include name="openApplication"/>
           <include name="logoutFromApplication"/>
           <include name="CloseApp"/>
         </methods>
-      </class> <!-- swarna.TC_11Test -->
+      </class> <!-- ambika.TC_01Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

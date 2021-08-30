@@ -2,6 +2,7 @@ package istiyak;
 
 import org.testng.Assert;
 import org.testng.Reporter;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import genericLibrary.BaseTest;
@@ -11,11 +12,12 @@ import objectRepositiry.ChekoutPage;
 import objectRepositiry.HomePage;
 import objectRepositiry.LoginPage;
 
+@Listeners(genericLibrary.ListenerImplementationClass.class)
 public class TC_06Test extends BaseTest {
 
 	
 	@Test
-	public void TC_06Test() throws InterruptedException {
+	public void toPlaceOrder() {
 		HomePage homePage=new HomePage(driver);
 		LoginPage loginpage=new LoginPage(driver);
 		homePage.getLoginLink().click();

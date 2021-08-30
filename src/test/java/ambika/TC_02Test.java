@@ -1,16 +1,17 @@
 package ambika;
 
-import org.apache.poi.util.SystemOutLogger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.Reporter;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import genericLibrary.BaseTest;
 import objectRepositiry.CartPage;
 import objectRepositiry.HomePage;
 
+@Listeners(genericLibrary.ListenerImplementationClass.class)
 public class TC_02Test extends BaseTest {
 
 	@Test
