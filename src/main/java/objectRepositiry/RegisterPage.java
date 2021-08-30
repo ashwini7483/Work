@@ -43,7 +43,7 @@ public class RegisterPage {
 	@FindBy(linkText="Log out")
 	private WebElement logout;
 	
-	@FindBy(className="button-1 register-continue-button")
+	@FindBy(xpath="(//input[@type='button'])[2]")
 	private WebElement ContinueButton;
 	
 	public WebElement getContinueButton()

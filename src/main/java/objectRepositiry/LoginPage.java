@@ -42,7 +42,7 @@ public class LoginPage {
 		return emailTextField;
 	}
 
-	public WebElement getPwdTextField() {
+	public WebElement getPasswordTextField() {
 		return pwdTextField;
 	}
 

@@ -16,4 +16,13 @@ public interface  IAutoConstants {
 	String SCREENSHOT_PATH = "./errorshots/";
 	
 	String DEFAULT_URL = "http://demowebshop.tricentis.com/";
+	String city = "bangalore";
+	String adresss1 = "btm";
+
+	String postalcode = "560029";
+	String phoneNo = "9876543212";
+
+	String countryoption = "India";
+	String comfirmMessage = "Thank you";
+
 }

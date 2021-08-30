@@ -100,6 +100,11 @@ public class HomePage {
 		return addToCart;
 	}
 	
+	@FindBy(partialLinkText="Computers")
+	private WebElement computerlink;
 	
+	public WebElement getComputerlink() {
+		return computerlink;
+	}
 	
 }

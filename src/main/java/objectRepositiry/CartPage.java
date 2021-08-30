@@ -21,6 +21,17 @@ public class CartPage {
 	
 	@FindBy(id="checkout")
 	private WebElement checkout;
+	
+	@FindBy(xpath="//div[contains(text(), 'Your Shopping Cart is empty!')]")
+    private WebElement emptyCartMessage;
+	
+	@FindBy(xpath="//a[text()='Cart']")
+	private WebElement cartButton;
+	
+	public WebElement getCartButton() {
+		return cartButton;
+	}
+
 	public WebDriver getDriver() {
 		return driver;
 	}
@@ -35,6 +46,10 @@ public class CartPage {
 
 	public WebElement getCheckout() {
 		return checkout;
+	}
+
+	public WebElement getEmptyCartMessage() {
+		return emptyCartMessage;
 	}
 	
 }

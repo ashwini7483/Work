@@ -112,6 +112,20 @@ public class ChekoutPage {
 		return prodctInCart;
 	}
 	
+	@FindBy(xpath="//input[@title='Continue']")
+	private WebElement billingcontinueButton;
+	
+	public WebElement getBillingcontinueButton() {
+		return billingcontinueButton;
+	}
+
+	@FindBy(name="BillingNewAddress.CountryId")
+	private WebElement countrylistbox;
+	
+	public WebElement getCountrylistbox() {
+		return countrylistbox;
+	}
+	
 	
 	
 }
