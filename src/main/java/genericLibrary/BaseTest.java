@@ -29,11 +29,7 @@ public class BaseTest implements IAutoConstants {
 	public static WebDriver driver;
 	public ExcelUtil readExcelData ;
 	public WebDriverWait explicitWait;
-	public CartPage cartPage;
-	public ChekoutPage checkoutPage;
-	public HomePage homePage;
-	public LoginPage loginPage;
-	public RegisterPage registerPage;
+	
 
 	@Parameters("browser")
 	@BeforeClass(alwaysRun=true)

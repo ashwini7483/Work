@@ -7,10 +7,8 @@ import org.openqa.selenium.support.PageFactory;
 
 public class CartPage {
 
-	WebDriver driver;
 	public CartPage(WebDriver driver) {
 	PageFactory.initElements(driver,this);
-	this.driver=driver;
 	}
 	
 	@FindBy(xpath="//input[@value='Update shopping cart']")
@@ -30,10 +28,6 @@ public class CartPage {
 	
 	public WebElement getCartButton() {
 		return cartButton;
-	}
-
-	public WebDriver getDriver() {
-		return driver;
 	}
 
 	public WebElement getUpdateShoppingCart() {

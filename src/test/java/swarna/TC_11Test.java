@@ -15,7 +15,7 @@ public class TC_11Test extends BaseTest{
 	 @Test
 	 public void loginWithInvalidCredentials() {
 		    HomePage homePage=new HomePage(driver);
-		    loginPage=new LoginPage(driver);
+		    LoginPage loginPage=new LoginPage(driver);
 		    
 		    //----------To verify loginpage============================================================================================
 			homePage.getLoginLink().click();
@@ -23,7 +23,7 @@ public class TC_11Test extends BaseTest{
 			Assert.assertEquals(driver.getTitle(),loginPageTitle,"login Page is not displayed");
 			Reporter.log("Loginpage displayed Successfully",true);
 
-			//----------to verify by invalid emailid and pasword=======================================================================
+			//----------to verify by invalid email id and password=======================================================================
 			loginPage.getEmailTextField().sendKeys("9897823@gmail.com");
 			Reporter.log("entered invalid email id",true);
 			loginPage.getPasswordTextField().sendKeys("12345678");

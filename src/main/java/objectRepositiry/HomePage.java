@@ -7,10 +7,8 @@ import org.openqa.selenium.support.PageFactory;
 
 public class HomePage {
 
-	WebDriver driver;
 	public HomePage(WebDriver driver) {
 	PageFactory.initElements(driver,this);
-	this.driver=driver;
 	}
 	
 	@FindBy(id="small-searchterms")
@@ -45,9 +43,6 @@ public class HomePage {
 	
 	@FindBy(linkText="Log out")
 	private WebElement logout;
-	public WebDriver getDriver() {
-		return driver;
-	}
 
 	public WebElement getSearchTextField() {
 		return searchTextField;

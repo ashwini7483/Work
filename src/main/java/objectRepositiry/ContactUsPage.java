@@ -7,10 +7,8 @@ import org.openqa.selenium.support.PageFactory;
 
 public class ContactUsPage {
 
-	WebDriver driver;
 	public ContactUsPage(WebDriver driver) {
 	PageFactory.initElements(driver,this);
-	this.driver=driver;
 	}
 	
 	@FindBy(linkText="Contact us")

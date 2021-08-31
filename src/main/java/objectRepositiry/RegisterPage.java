@@ -7,10 +7,8 @@ import org.openqa.selenium.support.PageFactory;
 
 public class RegisterPage {
 
-	WebDriver driver;
 	public RegisterPage(WebDriver driver) {
 	PageFactory.initElements(driver,this);
-	this.driver=driver;
 	}
 	
 	@FindBy(linkText="Register")

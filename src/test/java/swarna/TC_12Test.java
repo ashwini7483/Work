@@ -14,10 +14,10 @@ public class TC_12Test extends BaseTest {
 
 	@Test
 	public void toCheckout() {
-		homePage=new HomePage(driver);
-		cartPage = new CartPage(driver);
+		HomePage homePage=new HomePage(driver);
+		CartPage cartPage = new CartPage(driver);
 		homePage.getLoginLink().click();
-		checkoutPage = new ChekoutPage(driver);
+		ChekoutPage checkoutPage = new ChekoutPage(driver);
 		
 		//-------login with invalid emailid and password======================================================================================
 		

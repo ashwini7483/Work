@@ -7,10 +7,8 @@ import org.openqa.selenium.support.PageFactory;
 
 public class ChekoutPage {
 
-	WebDriver driver;
 	public ChekoutPage(WebDriver driver) {
 	PageFactory.initElements(driver,this);
-	this.driver=driver;
 	}
 	@FindBy(id="termsofservice")
 	private WebElement checkBox;
@@ -53,9 +51,6 @@ public class ChekoutPage {
 	
 	@FindBy(xpath="//h1[text()='Thank you']")
 	private WebElement thankYouMessage;
-	public WebDriver getDriver() {
-		return driver;
-	}
 
 	public WebElement getCheckoutButton() {
 		return checkoutButton;

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
     <line>
       <![CDATA[Successfully Launched Chrome Browser]]>
@@ -11,18 +11,27 @@
       <![CDATA[Home page is displayed successfully]]>
     </line>
     <line>
-      <![CDATA[homepage is displayed succeesfully]]>
+      <![CDATA[Loginpage displayed Successfully]]>
+    </line>
+    <line>
+      <![CDATA[entered invalid email id]]>
+    </line>
+    <line>
+      <![CDATA[entered invalid passowrd]]>
+    </line>
+    <line>
+      <![CDATA[Error message is displayed]]>
     </line>
     <line>
       <![CDATA[Logged out successfully]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8241" started-at="2021-08-30T15:07:14 EDT" finished-at="2021-08-30T15:07:22 EDT">
+  <suite name="Default suite" duration-ms="9697" started-at="2021-08-31T15:45:42 EDT" finished-at="2021-08-31T15:45:52 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="8241" started-at="2021-08-30T15:07:14 EDT" finished-at="2021-08-30T15:07:22 EDT">
-      <class name="ambika.TC_01Test">
-        <test-method status="PASS" signature="openApplication(java.lang.String)[pri:0, instance:ambika.TC_01Test@27a8c74e]" name="openApplication" is-config="true" duration-ms="5953" started-at="2021-08-30T15:07:14 EDT" finished-at="2021-08-30T15:07:20 EDT">
+    <test name="Default test" duration-ms="9697" started-at="2021-08-31T15:45:42 EDT" finished-at="2021-08-31T15:45:52 EDT">
+      <class name="swarna.TC_11Test">
+        <test-method status="PASS" signature="openApplication(java.lang.String)[pri:0, instance:swarna.TC_11Test@36b4cef0]" name="openApplication" is-config="true" duration-ms="7708" started-at="2021-08-31T15:45:42 EDT" finished-at="2021-08-31T15:45:50 EDT">
           <params>
             <param index="0">
               <value>
@@ -42,68 +51,34 @@
             </line>
           </reporter-output>
         </test-method> <!-- openApplication -->
-        <test-method status="FAIL" signature="ContactUsPage1()[pri:0, instance:ambika.TC_01Test@27a8c74e]" name="ContactUsPage1" duration-ms="987" started-at="2021-08-30T15:07:20 EDT" finished-at="2021-08-30T15:07:21 EDT">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[page is not displayed expected [Demo Web Ship. Contact Us] but found [Demo Web Shop. Contact Us]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: page is not displayed expected [Demo Web Ship. Contact Us] but found [Demo Web Shop. Contact Us]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-at org.testng.Assert.assertEquals(Assert.java:122)
-at org.testng.Assert.assertEquals(Assert.java:629)
-at ambika.TC_01Test.ContactUsPage1(TC_01Test.java:23)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:764)
-at org.testng.TestRunner.run(TestRunner.java:585)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-at org.testng.TestNG.runSuites(TestNG.java:1069)
-at org.testng.TestNG.run(TestNG.java:1037)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method status="PASS" signature="loginWithInvalidCredentials()[pri:0, instance:swarna.TC_11Test@36b4cef0]" name="loginWithInvalidCredentials" duration-ms="1245" started-at="2021-08-31T15:45:50 EDT" finished-at="2021-08-31T15:45:51 EDT">
           <reporter-output>
             <line>
-              <![CDATA[homepage is displayed succeesfully]]>
+              <![CDATA[Loginpage displayed Successfully]]>
+            </line>
+            <line>
+              <![CDATA[entered invalid email id]]>
+            </line>
+            <line>
+              <![CDATA[entered invalid passowrd]]>
+            </line>
+            <line>
+              <![CDATA[Error message is displayed]]>
             </line>
           </reporter-output>
-        </test-method> <!-- ContactUsPage1 -->
-        <test-method status="PASS" signature="logoutFromApplication()[pri:0, instance:ambika.TC_01Test@27a8c74e]" name="logoutFromApplication" is-config="true" duration-ms="0" started-at="2021-08-30T15:07:21 EDT" finished-at="2021-08-30T15:07:21 EDT">
+        </test-method> <!-- loginWithInvalidCredentials -->
+        <test-method status="PASS" signature="logoutFromApplication()[pri:0, instance:swarna.TC_11Test@36b4cef0]" name="logoutFromApplication" is-config="true" duration-ms="0" started-at="2021-08-31T15:45:51 EDT" finished-at="2021-08-31T15:45:51 EDT">
           <reporter-output>
             <line>
               <![CDATA[Logged out successfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- logoutFromApplication -->
-        <test-method status="PASS" signature="CloseApp()[pri:0, instance:ambika.TC_01Test@27a8c74e]" name="CloseApp" is-config="true" duration-ms="746" started-at="2021-08-30T15:07:21 EDT" finished-at="2021-08-30T15:07:22 EDT">
+        <test-method status="PASS" signature="CloseApp()[pri:0, instance:swarna.TC_11Test@36b4cef0]" name="CloseApp" is-config="true" duration-ms="691" started-at="2021-08-31T15:45:51 EDT" finished-at="2021-08-31T15:45:52 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseApp -->
-      </class> <!-- ambika.TC_01Test -->
+      </class> <!-- swarna.TC_11Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

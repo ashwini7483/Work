@@ -19,7 +19,6 @@ public class TC_04Test extends BaseTest {
 	public void removeAllproductAtATime() throws InterruptedException {
 		HomePage homePage=new HomePage(driver);
 		CartPage remove=new CartPage(driver);
-		checkoutPage = new ChekoutPage(driver);
 		
 		//to add three product to cart=====================================================================================================
 		homePage.getSearchTextField().sendKeys("laptop");
